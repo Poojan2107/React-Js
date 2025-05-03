@@ -1,20 +1,20 @@
-import React from 'react'
-// import ChildProps from './components/ChildProps'
-// import Prototype from './components/Prototype';
-// import UserList from './components/UserList';
-// import UserData from './components/UserData'
-// import SayHello from './components/SayHello'
-// import ArrayData from './components/arrayData'
+import React from 'react';
+import ChildProps from './components/ChildProps';
+import Prototype from './components/Prototype';
+import UserList from './components/UserList';
+import UserData from './components/UserData';
+import SayHello from './components/SayHello';
+import ArrayData from './components/ArrayData';
 
 const App = () => {
-  // let x = 10;
-  // let name = "Poojan";
-  // let arr = ["1","2","3","4","5"]
-  // let username = "Poojan";
-  // let salary = 123456;
+  let x = 10;
+  let name = "Poojan";
+  let arr = ["1","2","3","4","5"];
+  let username = "Poojan";
+  let salary = 123456;
   return (
     <div>
-      {/* <SayHello name="Poojan" age="18"/>
+      <SayHello name="Poojan" age="18"/>
       <UserData name="Poojan" age="18"/>
       <UserList x={x} name={name}/>
       <ArrayData even={arr} />
@@ -23,10 +23,10 @@ const App = () => {
         <h1>
           Lorem ipsum dolor sit amet.
         </h1>
-      </ChildProps> */}
+      </ChildProps>
     </div>
   )
 }
 
 
-export default App
+export default App;

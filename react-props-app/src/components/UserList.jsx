@@ -10,3 +10,6 @@ const UserList = ({x,name}) => {
 }
 
 export default UserList
+   
+
+let arr = {}
