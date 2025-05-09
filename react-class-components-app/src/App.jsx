@@ -1,5 +1,6 @@
 import React from 'react'
-import GreetComponent from './Components/GreetComponent'
+import StateinClassComponent from './Components/StateinClassComponent';
+// import GreetComponent from './Components/GreetComponent'
 // import { NamedComponent } from './Components/NamedComponent'
 // import ClassComponent from './Components/ClassComponent'
 // import Propscomponents from './Components/Propscomponents'
@@ -9,8 +10,9 @@ const App = () => {
     <div>
       {/* <ClassComponent/>
       <Propscomponents/>
-      <NamedComponent/> */}
-      <GreetComponent name="Poojan." age={age}/>
+      <NamedComponent/>
+      <GreetComponent name="Poojan." age={age}/> */}
+      <StateinClassComponent/>
     </div>
   )
 }

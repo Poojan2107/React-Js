@@ -38,4 +38,3 @@ const PracticeForm = () => {
 };
 
 export default PracticeForm;
-
