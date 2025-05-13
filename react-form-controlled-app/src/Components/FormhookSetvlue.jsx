@@ -48,3 +48,10 @@ const FormHook = () => {
 };
 
 export default FormHook;
+
+
+
+
+console.log('FormHook component rendered');
+// This component uses react-hook-form to manage form state and validation.
+
